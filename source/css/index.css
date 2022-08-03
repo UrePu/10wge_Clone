@@ -1,0 +1,66 @@
+body{
+    overflow: hidden;
+}
+html,body,.container{
+    width: 100vw;
+    height: 150vh;
+    margin: 0px;
+}
+@font-face {
+    font-family: 'apple';
+    src: url(../fonts/);
+}
+.container
+{
+    width: 110vw;
+    position: relative;
+    overflow-y: scroll;
+}
+.container__header{
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+}
+.header{
+    display: flex;
+    width: 1320px;
+    height: 120px;
+    margin: 0px auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header__shop {
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.section{
+    width: 100vw !important; 
+    height: 100vh;
+    color: white;
+
+}
+
+#container__section__1{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) )
+    ,url(../img/main_background01.jpg);
+    background-size: cover;
+}
+
+.section__1{
+    width: 1320px;
+    padding-top: 123px;
+    margin: 0px auto;
+    font-size: 38px;
+}
+.head__text {
+    margin: 0px;
+}
+.head__text__sub {
+    margin-top: 15px;
+    font-size: 20px;
+}
