@@ -59,13 +59,18 @@ a {
     color: white;
 
 }
-
-#container__section__1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/main_background01.jpg);
-    background-size: cover;
+#container__section__1{
+    background-position: center;
+    transition: background-image .5s ease;
+    box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 60%);
 }
 #container__section__2 {
-    background-image: url(../img/scroll_back03.jpg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0)30%, rgba(102,102,102,1) 100%), url(../img/scroll_back03.jpg);
+    box-shadow:
+    inset 0 -20em 20em rgba(0,0,0,0.6),
+            0 0 0 2px rgb(255,255,255),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);
+    background-position: center;
 }
 
 .section__1 {
@@ -166,4 +171,41 @@ a {
     height: 24px;
     font-size: 18px;
     justify-content: space-between;
+}
+.section__2{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section__2__maintext{
+    text-align: center;
+}
+.section__2__maintext h2 {
+    font-size: 56px;
+    margin: 10px 0px;
+}
+.section__2__maintext div{
+    font-size: 22px;
+    line-height: 15px;
+}
+.section__2__click {
+    position: absolute;
+    bottom: 5%;
+    font-size: 22px;
+    text-align: center;
+    animation:  motion 1s ease-in-out 0s infinite alternate;
+}
+@keyframes motion{
+    0% {
+        bottom : 8%;
+    }
+ 
+    100% {
+        bottom: 5%;
+    }
+}
+.section__2__click img{
+    margin-top: 15px;
 }
