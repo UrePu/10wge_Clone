@@ -20,6 +20,7 @@ body,
     position: relative;
     overflow-y: scroll;
 }
+/* header s */
 
 .container__header {
     width: 100vw;
@@ -52,6 +53,7 @@ a {
     text-decoration: none;
     color: white;
 }
+/* header e */
 
 .section {
     width: 100vw !important;
@@ -188,7 +190,7 @@ a {
 }
 .section__2__maintext div{
     font-size: 22px;
-    line-height: 15px;
+    line-height: 22px;
 }
 .section__2__click {
     position: absolute;
