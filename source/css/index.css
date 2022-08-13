@@ -1,6 +1,30 @@
 body {
     overflow: hidden;
 }
+@font-face {
+    font-family: 'neoh';
+    src: url(../fonts/AppleSDGothicNeoH.ttf);
+}
+@font-face {
+    font-family: 'neom';
+    src: url(../fonts/AppleSDGothicNeoM.ttf);
+}
+@font-face {
+    font-family: 'neor';
+    src: url(../fonts/AppleSDGothicNeoR.ttf);
+}
+@font-face {
+    font-family: 'neob';
+    src: url(../fonts/AppleSDGothicNeoB.ttf);
+}
+@font-face {
+    font-family: 'neoeb';
+    src: url(../fonts/AppleSDGothicNeoEB.ttf);
+}
+@font-face {
+    font-family: 'neoel';
+    src: url(../fonts/AppleSDGothicNeoL.ttf);
+}
 
 html,
 body,
@@ -9,12 +33,6 @@ body,
     height: 100vh;
     margin: 0px;
 }
-
-@font-face {
-    font-family: 'apple';
-    src: url(../fonts/);
-}
-
 .container {
     width: 110vw;
     position: relative;
@@ -23,6 +41,7 @@ body,
 /* header s */
 
 .container__header {
+    font-family: 'neom';
     width: 100vw;
     position: fixed;
     top: 0px;
@@ -76,6 +95,7 @@ a {
 
 .head__text {
     margin: 0px;
+    font-family: 'neoh';
 }
 
 .head__text__sub {
@@ -83,6 +103,7 @@ a {
     justify-content: space-between;
     margin-top: 15px;
     font-size: 20px;
+    font-family: 'neor';
 }
 
 .head__sub__link {
@@ -110,6 +131,7 @@ a {
     top: -35px;
     margin: 0px;
     left: 36px;
+    font-family: 'neoeb';
 }
 .head__column__black{
     width: 160px;
@@ -120,6 +142,7 @@ a {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.70);
     font-size: 22px;
+    font-family: 'neob';
 
 }
 .head__column_text {
@@ -130,6 +153,7 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-family: 'neor';
 }
 .head__box__columns img {
     position: relative;
@@ -164,7 +188,8 @@ a {
     display: flex;
     height: 24px;
     font-size: 18px;
-    justify-content: space-between;
+    justify-content: space-between;    
+    font-family: 'neor';
 }
 /* section_1 e */
 
@@ -189,10 +214,13 @@ a {
 .section__2__maintext h2 {
     font-size: 56px;
     margin: 10px 0px;
+    font-family: 'neoh';
+    font-weight: lighter;
 }
 .section__2__maintext div{
     font-size: 22px;
     line-height: 22px;
+    font-family: 'neor';
 }
 .section__2__click {
     position: absolute;
@@ -201,6 +229,7 @@ a {
     text-align: center;
     animation:  motion 1s ease-in-out 0s infinite alternate;
     cursor: pointer;
+    font-family: 'neoeb';
 }
 @keyframes motion{
     0% {
@@ -236,6 +265,7 @@ a {
     background-size: cover;
     padding-top: 130px;
     box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 60%);
+    font-family: 'neor';
 }
 .section__5__left {
     background-image: url(../img/slice_back01.jpg);
@@ -265,6 +295,7 @@ a {
 .section__5 h2 {
     font-size: 57px;
     margin: 0;
+    font-family: 'neoh';
 }
 .section__5 p {
     font-size: 17px;
@@ -289,11 +320,13 @@ a {
     width: 1320px;
     padding-top: 123px;
     margin: 0px auto;
+    font-family: 'neor';
 }
 .section__6__text {
-    margin-top: 7   0px;
+    margin-top: 70px;
     font-size:64px;
     margin-bottom: 0;
+    font-family: 'neor';
 }
 .section__6__sub__text {
     font-size: 20px;
@@ -342,7 +375,8 @@ a {
 .select__box {
     position: absolute;
     bottom: 6%;
-    right: 20%;    
+    right: 20%;
+    font-family: 'neol';    
 }
 .option__box {    
     width: 180px;
@@ -364,7 +398,6 @@ a {
     border-radius: 10px;
     opacity: 0;
     transition: all .5s ease;
-    z-index: -1;
 }
 .option__s{
     border: none;
@@ -377,5 +410,4 @@ a {
 }
 .option__active {
     opacity: 1 !important;
-    z-index: 1 !important;
 }
