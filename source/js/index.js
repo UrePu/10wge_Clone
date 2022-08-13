@@ -12,7 +12,7 @@ mHtml.animate({scrollTop : 0},10);
 $(window).on("wheel", function(e) {
     if(mHtml.is(":animated")) return;
     if(e.originalEvent.deltaY > 0) {
-        if(page === 6) return;
+        if(page === 7) return;
         page++;
         header[0].className = "container__header header__active";
     } else if(e.originalEvent.deltaY < 0) {
@@ -22,8 +22,7 @@ $(window).on("wheel", function(e) {
         page--;
     }
     if(page === 1) header[0].className = "container__header";
-    var posTop =(page-1) * $(window).height();
-    console.log(posTop + " " + page);
+    var posTop = (page-1) * $(window).height();
     mHtml.animate({scrollTop : posTop}, 1000);
 })
 
@@ -58,3 +57,24 @@ $(document).ready(function(){
         }
     }, 5000);
 });
+
+var click = document.getElementsByClassName("section__2__click");
+click[0].addEventListener("click", function() {
+    page = 5
+    posTop = (page-1) * $(window).height();
+    mHtml.animate({scrollTop : posTop}, 1500);
+})
+
+var option = document.getElementById("option__main");
+var option__b = document.getElementById("option__boxs");
+var option_active = 1;
+option.addEventListener("click", function(){
+    if(option_active == 1) {
+        option__b.className = "option__active";
+        option_active ++;
+    }
+    else {
+        option__b.className = " "
+        option_active = 1
+    }
+})
