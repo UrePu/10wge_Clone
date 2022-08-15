@@ -1,0 +1,87 @@
+body html , .container{
+    width: 100vw;
+}
+.always {
+    background-color: rgba(0, 0, 0, 0.80);
+}
+.header{
+    width: 80vw;
+}
+.section{
+    background-size: cover;
+    background-position: center center;
+}
+.section__1 {
+    width: 425px;
+}
+#container__section__1{
+    height: 150vh;
+    position: relative;
+}
+.section__head__text {
+    width: 80vw;
+    margin: 0 auto;
+}
+.head__text {
+    font-size: 32px;
+}
+.head__text__sub {
+    display: block;
+    font-size: 16px;
+}
+.section__head__box {
+    width: 80vw;
+    height: 760px;
+    margin-top: 0;
+    margin: 50px auto;
+}
+.head__box__columns {
+    display: block;
+    margin-top: 0px;
+}
+.off {
+    display: none;
+}
+.head__box__columns img{
+    top: -10px;
+    left: 75px;
+    transform: rotate(90deg);
+}
+.head__column__black {
+    margin-right: 10px;
+}
+.head__columns__column {
+    display: flex;
+}
+.head__column_text{
+    font-size: 13px;
+    margin-left: auto;
+}
+.head__column__black {
+    font-size: 16px;
+}
+.section__head__box h3 {
+    left: 95px;
+    top: -20px;
+    font-size: 30px;
+}
+.section__2__maintext {
+    width: 360px;
+}
+.section__2__maintext h2{
+    font-size: 35px;
+}
+.section__2__maintext div{
+    font-size: 15px;
+    line-height: 16px;
+}
+.head__column_text a{
+    color: rgb(0, 89, 255);
+}
+.section__head__info {
+    display: block;
+    position: absolute;
+    bottom: 7%;
+    left: -11%;
+    text-align: center;
+}

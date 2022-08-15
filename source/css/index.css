@@ -76,7 +76,7 @@ a {
 /* header e */
 /* section 1 s */
 .section {
-    width: 100vw !important;
+    width: 100vw;
     height: 100vh;
     color: white;
     background-position: center center;
