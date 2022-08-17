@@ -200,6 +200,7 @@ a {
     inset 0 -20em 20em rgba(0,0,0,0.6),
             0 0 0 2px rgb(255,255,255),
           0.3em 0.3em 1em rgba(0,0,0,0.3);
+          z-index: 2;
 }
 .section__2{
     position: relative;
@@ -366,10 +367,6 @@ a {
 #container__section__7 {
     background-image: url(../img/footer__backgroun01.png);
     background-size: cover;
-    box-shadow:
-    inset 0 -20em 20em rgba(0,0,0,0.6),
-            0 0 0 2px rgb(255,255,255),
-          0.3em 0.3em 1em rgba(0,0,0,0.3);
     position: relative;
 }
 .select__box {
