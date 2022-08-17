@@ -79,6 +79,7 @@ a {
     width: 100vw;
     height: 100vh;
     color: white;
+    background-size: cover;
     background-position: center center;
 
 }
@@ -123,7 +124,7 @@ a {
 }
 .section__head__box {
     background-color: rgba(0, 0, 0, 0.603);
-    margin-top: 15%;
+    margin-top: 10%;
     height: 254px;
 }
 .section__head__box h3{
@@ -260,38 +261,45 @@ a {
     position: relative;
 }
 .section__5 {
-    width: 748px;
-    height: 86.2vh;
-    background-position: center;
+    width: 45%;
+    height: 100vh;
+    background-position:center;
     background-size: cover;
-    padding-top: 130px;
     box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 60%);
     font-family: 'neor';
 }
 .section__5__left {
     background-image: url(../img/slice_back01.jpg);
+    background-position-x: -150px;
 }
 .section__5__middle {
     background-image: url(../img/scroll_back03.jpg);
     transform: skewX(-11deg);
-    width: 747px;
+    width: 44%;
     position: absolute;
     left: 27%;
-}
-.middle__5__text {
-    transform: skewX(11deg);
-    margin-top: 33%;
-    margin-left: 120px;
-}
-.left__5__text{
-   margin-left: 60px;
-}
-.right__5__text {
-    margin-top: 66%;
-    margin-left: 160px;
+    z-index: 3;
 }
 .section__5__right {
     background-image: url(../img/slice_back03.jpg);
+    position: static;
+    z-index: 0;
+}
+.middle__5__text {
+    transform: skewX(11deg);
+    position: absolute;
+    top: 45%;
+    left: 11%;
+}
+.left__5__text{
+    position: absolute;
+    top: 15%;
+    left: 2%;
+}
+.right__5__text {
+    position: absolute;
+    bottom: 8%;
+    left: 72%;
 }
 .section__5 h2 {
     font-size: 57px;
@@ -319,7 +327,7 @@ a {
 }
 .section__6 {
     width: 1320px;
-    padding-top: 123px;
+    padding-top: 5%;
     margin: 0px auto;
     font-family: 'neor';
 }

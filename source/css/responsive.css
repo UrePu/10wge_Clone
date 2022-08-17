@@ -18,7 +18,7 @@ body, html , .container{
     width: 100vw;
 }
 #container__section__1{
-    height: 160vh !important;
+    height: 1360px !important;
     position: relative;
 }
 .section__head__text {
@@ -175,7 +175,7 @@ body, html , .container{
     background-size: cover;
     background-position: 0 0;
     position: relative;
-    height: 100vh;
+    height: 850px;
 }
 .select__box {
     position: absolute;
@@ -243,6 +243,6 @@ body, html , .container{
         background-size: cover;
         background-position: 0% 0%;
         position: relative;
-        height: 90vh;
+        height: 750px;
     }
 }
