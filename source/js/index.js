@@ -36,7 +36,7 @@ $(document).ready(function(){
     setInterval(() => {
         bgpage++;
         if(bgpage == 4) bgpage = 1;
-        section__1.style.backgroundImage = 'url("../source/img/main_background0'+bgpage+'.jpg")';
+        section__1.style.backgroundImage = 'url("./source/img/main_background0'+bgpage+'.jpg")';
         switch(bgpage){
             case 1:
                 head__text[0].innerHTML = "The best solar energy";

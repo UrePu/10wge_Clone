@@ -121,21 +121,21 @@ body, html , .container{
     transform: none;
     position: unset;
 }
+.section__5__left {
+    background-image: url(../img/slice_back01.jpg);
+    background-position:center;
+}
 .left__5__text {
-    margin: 0;
-    margin-left: 30px;
-    padding-top: 22%;
+    top: 10%;
+    left: 5%;
 }
 .middle__5__text {
     transform: none;
-    margin: 0;
-    margin-left: 30px;
-    padding-top: 22%;
+    left: 5%;
 }
 .right__5__text {
-    margin: 0;
-    margin-left: 30px;
-    padding-top: 15%;
+    left: 5%;
+    bottom: 2%;
 }
 .section__5__middle {
     position: unset;
